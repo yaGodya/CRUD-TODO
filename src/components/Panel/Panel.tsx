@@ -49,7 +49,6 @@ export const Panel: React.FC<PanelProps> = ({ onAddTodo }) => {
       }}
     >
       <TextField
-       
         name="name"
         value={todo.name}
         onChange={onChange}

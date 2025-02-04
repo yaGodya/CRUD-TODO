@@ -57,7 +57,7 @@ export const TodoItem: React.FC<TodoItemProps> = ({
       </Box>
 
       <Box display="flex" alignItems="center" justifyContent="center">
-        <IconButton aria-label="edit" onEditTodo={() => onEditTodo(todo.id)}>
+        <IconButton aria-label="edit" onClick={() => onEditTodo(todo.id)}>
           <EditIcon color="primary" />
         </IconButton>
 

@@ -27,7 +27,6 @@ export const TodoList: React.FC<TodoListProps> = ({
   return (
     <Box>
       {todoList.map((todo) => {
- 
         if (todo.id === editTodoId) {
           return (
             <EditTodoItem

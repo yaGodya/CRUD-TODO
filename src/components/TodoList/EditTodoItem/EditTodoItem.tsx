@@ -55,17 +55,6 @@ export const EditTodoItem: React.FC<EditTodoItemProps> = ({ todo, onChangeTodo }
       <Button startIcon={<EditIcon />} variant="outlined" onClick={onClick}>
         Edit
       </Button>
-
-      {/* <Box>
-        <Button
-          variant="outlined"
-          startIcon={loading ? <CircularProgress size={20} /> : <Add />}
-          onClick={onClick}
-          disabled={isButtonDisabled}
-        >
-          {loading ? 'Add' : 'Add'}
-        </Button>
-      </Box> */}
     </Paper>
   )
 }
